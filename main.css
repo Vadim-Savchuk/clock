@@ -1,0 +1,35 @@
+body{
+    padding: 100px;
+    background-color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.clock-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.offer{
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 20px white, 0 0 20px rgb(255 255 0 / 0%);
+}
+
+.date{
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.clock{
+    font-size: 80px;
+    letter-spacing: 15px;
+}
